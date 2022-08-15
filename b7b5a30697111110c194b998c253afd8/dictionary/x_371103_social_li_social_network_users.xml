@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Social Network Users" max_length="40" name="x_371103_social_li_social_network_users" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Servicenow User" max_length="32" name="servicenow_user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Social Network" max_length="40" name="social_network" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Facebook" value="facebook"/>
+                <element inactive_on_update="false" label="Twitter" value="twitter"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="User Name" max_length="100" name="user_name" type="string"/>
+        <index name="index">
+            <element name="servicenow_user"/>
+        </index>
+    </element>
+</database>

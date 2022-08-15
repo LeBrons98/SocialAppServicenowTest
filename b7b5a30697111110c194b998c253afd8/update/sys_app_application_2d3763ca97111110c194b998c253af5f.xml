@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Make your social life part of your job (Test)</description>
+        <device_type>browser</device_type>
+        <hint>Make your social life part of your job (Test)</hint>
+        <name/>
+        <order/>
+        <roles>x_371103_social_li.data user,x_371103_social_li.data manager</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-15 17:10:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2d3763ca97111110c194b998c253af5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Social Life-Cycle</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Social Life-Cycle" source="x_371103_social_li">b7b5a30697111110c194b998c253afd8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Social Life-Cycle">b7b5a30697111110c194b998c253afd8</sys_scope>
+        <sys_update_name>sys_app_application_2d3763ca97111110c194b998c253af5f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-15 17:10:43</sys_updated_on>
+        <title>Social Life-Cycle</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

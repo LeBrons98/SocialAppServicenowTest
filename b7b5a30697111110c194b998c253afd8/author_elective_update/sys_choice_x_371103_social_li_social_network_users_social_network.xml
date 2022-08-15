@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="social_network" table="x_371103_social_li_social_network_users" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>social_network</element>
+            <name>x_371103_social_li_social_network_users</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-15 17:08:58</sys_created_on>
+            <sys_id>b3c6af0697511110c194b998c253af07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>social_network</sys_name>
+            <sys_package display_value="Social Life-Cycle" source="x_371103_social_li">b7b5a30697111110c194b998c253afd8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Social Life-Cycle">b7b5a30697111110c194b998c253afd8</sys_scope>
+            <sys_update_name>sys_choice_x_371103_social_li_social_network_users_social_network</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-15 17:08:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>social_network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Facebook</label>
+            <language>en</language>
+            <name>x_371103_social_li_social_network_users</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-15 17:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3bc6af0697511110c194b998c253af06</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-15 17:08:58</sys_updated_on>
+            <value>facebook</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>social_network</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Twitter</label>
+            <language>en</language>
+            <name>x_371103_social_li_social_network_users</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-15 17:08:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3c6af0697511110c194b998c253af0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-15 17:08:58</sys_updated_on>
+            <value>twitter</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
